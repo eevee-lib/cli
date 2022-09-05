@@ -1,11 +1,11 @@
-# `@eevee-cli/log`
+# `@eevee-cli/format-path`
 
 > TODO: description
 
 ## Usage
 
 ```
-const log = require('@eevee-cli/log');
+const log = require('@eevee-cli/format-path');
 
 // TODO: DEMONSTRATE API
 ```

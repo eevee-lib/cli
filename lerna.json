@@ -5,6 +5,9 @@
   "version": "independent",
   "npmClient": "pnpm",
   "packages": [
-    "packages/*"
+    "core/*",
+    "commands/*",
+    "models/*",
+    "utils/*"
   ]
 }
