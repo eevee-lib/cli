@@ -1,0 +1,29 @@
+{
+  "name": "@eevee-cli/log",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "liusixin <fordreamxkhl@163.com>",
+  "homepage": "https://github.com/eevee-lib/cli/tree/main/packages/log#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eevee-lib/cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@eevee-cli/log.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/eevee-lib/cli/issues"
+  }
+}

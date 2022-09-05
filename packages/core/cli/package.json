@@ -1,0 +1,33 @@
+{
+  "name": "@eevee-cli/core",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "eevee": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@eevee-cli/exec": "workspace:^1.0.0",
+    "@eevee-cli/get-npm-info": "workspace:^1.0.0",
+    "@eevee-cli/init": "workspace:^1.0.0",
+    "@eevee-cli/log": "workspace:^1.0.0",
+    "import-local": "^3.1.0",
+    "npmlog": "^6.0.2"
+  }
+}
